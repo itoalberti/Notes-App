@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap');
 
-
-
 :root {
-  --color-main: #f68657;
+  /* --color-main: #f68657; */
+  --color-main: #1025e0;
   --color-text: #383a3f;
   --color-dark: #1f2124;
   --color-gray: #677;
@@ -11,7 +10,7 @@
   --color-light: #acb4bd;
   --color-lighter: #f9f9f9;
   --color-white: #fff;
-  --color-border:#e0e3e6;
+  --color-border: #e0e3e6;
 }
 
 .dark {
@@ -22,13 +21,12 @@
   --color-bg: #1f2124;
   --color-lighter: #292a2c;
   --color-white: #2e3235;
-  --color-border:#252629;
+  --color-border: #252629;
 }
 
 /* BASE STYLES */
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -38,8 +36,7 @@
   scroll-behavior: smooth;
 }
 
-
-body{
+body {
   line-height: 1.8em;
   font-weight: 400;
   font-size: 16px;
@@ -51,7 +48,6 @@ a {
 
 /* APP STYLES */
 
-
 .container {
   width: 100%;
   height: 100vh;
@@ -60,7 +56,6 @@ a {
   display: flex;
   align-items: center;
 }
-
 
 .app {
   width: 100%;
@@ -71,7 +66,6 @@ a {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05);
   position: relative;
 }
-
 
 .app-header {
   display: flex;
@@ -106,7 +100,6 @@ a {
   padding: 16px;
 }
 
-
 /* NOTES STYLES */
 
 .notes-header {
@@ -128,7 +121,6 @@ a {
   color: var(--color-gray);
 }
 
-
 .notes-list {
   padding: 0;
   margin: 16px 0;
@@ -142,7 +134,7 @@ a {
 }
 
 .notes-list-item {
-  border-bottom: 1px solid  var(--color-border);
+  border-bottom: 1px solid var(--color-border);
   margin-bottom: 12px;
   padding: 8px 16px;
   transition: all 0.2s ease-in-out;
@@ -157,7 +149,6 @@ a {
 .notes-list-item p span {
   font-weight: 600;
 }
-
 
 .notes-list-item p span {
   color: var(--color-gray);
@@ -187,12 +178,9 @@ a {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
-
 .floating-button > svg {
   fill: var(--color-bg);
 }
-
-
 
 /*==============================
 =>  Note Styles
